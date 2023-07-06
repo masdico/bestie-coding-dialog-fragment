@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">Dialog App</string>
+    <string name="text1">Choose</string>
+    <string name="text2">Who\'s your favorite celebrity?</string>
+    <string name="text3">click below</string>
+    <string name="text_vote">Vote</string>
+    <string name="text_cancel">Cancel</string>
+    <string name="text_dialog">Vote for your favorite celebrity:</string>
+    <string name="celeb_1">Tom Hanks</string>
+    <string name="celeb_2">Michael Jackson</string>
+    <string name="celeb_3">Selena Gomez</string>
+    <string name="celeb_4">Beyoncé</string>
+    <string name="celeb_5">Jackie Chan</string>
+    <string name="celeb_6">Tom Cruise</string>
+    <string name="celeb_7">Taylor Swift</string>
+    <string name="celeb_8">Elvis Presley</string>
+    <string name="celeb_9">Justin Bieber</string>
+    <string name="celeb_10">Celine Dion</string>
+    <string name="celeb_11">Jennifer Lopez</string>
+    <string name="celeb_12">Will Smith</string>
+    <string name="celeb_13">Angelina Jolie</string>
+    <string name="celeb_14">Brad Pitt</string>
+    <string name="celeb_15">Denzel Washington</string>
+</resources>

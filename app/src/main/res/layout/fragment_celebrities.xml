@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context=".FragmentCelebrities">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="16dp"
+            android:text="@string/text_dialog"
+            android:textSize="20sp"
+            android:textStyle="bold"/>
+
+        <RadioGroup
+            android:id="@+id/rg_celebrities"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp">
+
+            <RadioButton
+                android:id="@+id/rb_celebrity1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/celeb_1" />
+
+            <RadioButton
+                android:id="@+id/rb_celebrity2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/celeb_2" />
+
+            <RadioButton
+                android:id="@+id/rb_celebrity3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/celeb_3" />
+
+            <RadioButton
+                android:id="@+id/rb_celebrity4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/celeb_4" />
+
+            <RadioButton
+                android:id="@+id/rb_celebrity5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/celeb_5" />
+
+            <RadioButton
+                android:id="@+id/rb_celebrity6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/celeb_6" />
+
+            <RadioButton
+                android:id="@+id/rb_celebrity7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/celeb_7" />
+
+            <RadioButton
+                android:id="@+id/rb_celebrity8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/celeb_8" />
+
+            <RadioButton
+                android:id="@+id/rb_celebrity9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/celeb_9" />
+
+            <RadioButton
+                android:id="@+id/rb_celebrity10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/celeb_10" />
+
+            <RadioButton
+                android:id="@+id/rb_celebrity11"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/celeb_11" />
+
+            <RadioButton
+                android:id="@+id/rb_celebrity12"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/celeb_12" />
+
+            <RadioButton
+                android:id="@+id/rb_celebrity13"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/celeb_13" />
+
+            <RadioButton
+                android:id="@+id/rb_celebrity14"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/celeb_14" />
+
+            <RadioButton
+                android:id="@+id/rb_celebrity15"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/celeb_15" />
+
+        </RadioGroup>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btn_vote_celeb"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="8dp"
+                android:layout_weight=".5"
+                android:text="@string/text_vote"
+                style="?android:attr/buttonBarPositiveButtonStyle" />
+
+            <Button
+                android:id="@+id/btn_close_dialog"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_weight=".5"
+                android:text="@string/text_cancel"
+                style="?android:attr/negativeButtonText" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</ScrollView>
